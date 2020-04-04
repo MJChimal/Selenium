@@ -4,7 +4,7 @@ Práctica de pruebas unitarias con Selenium
 
 * Para instalar todos los módulos necesarios 
 
-    * ***pipenv install -r requierement.txt***
+    * ***pipenv install -r requirements.txt***
 
 * Para ejecutar las pruebas 
 
