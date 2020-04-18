@@ -30,7 +30,7 @@ def lauch_driver():
 class BaseWebDriver:
     
     driver: Any = field(default_factory=lauch_driver)
-    
+
     def open_url(self, url):
         
         self.driver.get(url)

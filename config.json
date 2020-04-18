@@ -2,7 +2,7 @@
     "browser": "firefox",
     "wait_time": 5,
     "executable_path": "./geckodriver",
-    "run_file": "selenium4/alertas_popups.py",
-    "headless": false
+    "headless": false,
+    "url": "https://github.com/"
 }
    
