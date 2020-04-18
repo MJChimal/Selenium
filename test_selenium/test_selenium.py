@@ -27,5 +27,6 @@ def test_busqueda_en_google(webdriver):
     resultados_asociados = webdriver.find_elements_by_xpath(f'//span[@class="st"][contains(text(), "{palabra}")]')
     assert resultados_asociados
 
-    ligas_asociadas = webdriver.find_elements_by_xpath(f'//a[contains(text(), "{palabra}")]')
-    assert ligas_asociadas
+
+def test_prueba():
+    assert 1 > 2

@@ -25,4 +25,3 @@ def test_busqueda_en_google(webdriver):
     resultados_en_google = GoogleResultados(webdriver)
     assert resultados_en_google.resultados()
     assert resultados_en_google.resultados_asociados(palabra)
-    assert resultados_en_google.ligas_asociadas(palabra)
